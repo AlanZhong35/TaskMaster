@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    /* Add other styles like background-color, font-size, etc. */
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* Customize other styles */
+}
+th {
+    background-color: lightgray;
+    font-weight: bold;
+}
+td {
+    background-color: #f9f9f9;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add other styles like width, padding, etc. */
+}
+
+.centered-heading {
+    text-align: center;
+    /* Add other styles like font-size, color, etc. */
+}
